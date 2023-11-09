@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#psw:placeholder-shown + label {
+  transform: translate(-2px, 0);
+  scale: 100%;
+}
+
+#psw:focus + label,
+#psw:not(:placeholder-shown) + label {
+  transform: translate(0, 0);
+  scale: 75%;
+  top: 0.1rem;
+}
+
+#user:placeholder-shown + label {
+  transform: translate(-2px, 0);
+  scale: 100%;
+}
+
+#user:focus + label,
+#user:not(:placeholder-shown) + label {
+  transform: translate(0, 0);
+  scale: 75%;
+  top: 0.1rem;
+}
+
+#numid:placeholder-shown + label {
+  transform: translate(-2px, 0);
+  scale: 100%;
+}
+
+#numid:focus + label,
+#numid:not(:placeholder-shown) + label {
+  transform: translate(0, 0);
+  scale: 75%;
+  top: 0.1rem;
+}
+
+#numdes:placeholder-shown + label {
+  transform: translate(-2px, 0);
+  scale: 100%;
+}
+
+#numdes:focus + label,
+#numdes:not(:placeholder-shown) + label {
+  transform: translate(0, 0);
+  scale: 75%;
+  top: 0.1rem;
+}
+
+#start:placeholder-shown + label {
+  transform: translate(-2px, 0);
+  scale: 100%;
+}
+
+#start:focus + label,
+#start:not(:placeholder-shown) + label {
+  transform: translate(0, 0);
+  scale: 75%;
+  top: 0.1rem;
+}
+
+#end:placeholder-shown + label {
+  transform: translate(-2px, 0);
+  scale: 100%;
+}
+
+#end:focus + label,
+#end:not(:placeholder-shown) + label {
+  transform: translate(0, 0);
+  scale: 75%;
+  top: 0.1rem;
+}
+
+#typeid:focus + label,
+#typeid:not(:placeholder-shown) + label {
+  transform: translate(0, 0);
+  scale: 75%;
+  top: 0.1rem;
+}
+#typeid:placeholder-shown + label,
+#typeid:not(:placeholder-shown) + label {
+  transform: translate(-2px, 0);
+  scale: 100%;
+}
